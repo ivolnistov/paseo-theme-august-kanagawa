@@ -8,7 +8,7 @@
     "type": "git",
     "url": "https://github.com/ivolnistov/paseo-theme-august-kanagawa.git"
   },
-  "files": ["paseo-plugin.json", "index.client.ts", "README.md", "LICENSE"],
+  "files": ["paseo-plugin.json", "index.client.ts", "OVERVIEW.md", "README.md", "LICENSE", "assets/"],
   "scripts": { "typecheck": "tsc --noEmit" },
   "devDependencies": {
     "@getpaseo/plugin": "0.12.0",

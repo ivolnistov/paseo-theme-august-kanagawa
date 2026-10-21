@@ -2,6 +2,8 @@
 
 A native, client-only theme plugin adapting **August - Kanagawa (Darker)** from [August Themes for VS Code](https://github.com/inci-august/august-themes).
 
+![August - Kanagawa (Darker) selected in Paseo Appearance settings, with the built-in code preview](assets/screenshot.png)
+
 ## Install
 
 Requires Paseo 0.12.x. Install directly from GitHub:
