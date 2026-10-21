@@ -1,0 +1,6 @@
+{
+  "id": "august-kanagawa",
+  "name": "August Kanagawa",
+  "description": "August - Kanagawa (Darker), adapted from the August Themes palette for VS Code.",
+  "requirements": { "paseo": ">=0.12.0 <0.13.0" }
+}
