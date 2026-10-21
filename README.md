@@ -1,4 +1,4 @@
-# August Kanagawa for Paseo
+# August Kanagawa Theme for Paseo
 
 A native, client-only theme plugin adapting **August - Kanagawa (Darker)** from [August Themes for VS Code](https://github.com/inci-august/august-themes).
 
