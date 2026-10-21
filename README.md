@@ -7,7 +7,7 @@ A native, client-only theme plugin adapting **August - Kanagawa (Darker)** from 
 Requires Paseo 0.12.x. Install directly from GitHub:
 
 ```sh
-paseo plugin install https://github.com/ivolnistov/paseo-august-kanagawa.git
+paseo plugin install https://github.com/ivolnistov/paseo-theme-august-kanagawa.git
 ```
 
 Alternatively, clone the repository and install from its directory:
