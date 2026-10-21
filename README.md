@@ -32,14 +32,16 @@ paseo plugin remove august-kanagawa
 | --- | --- | --- |
 | Background | `#16161e` | `editor.background` |
 | Foreground | `#dcd7ba` | `editor.foreground` |
-| Raised surfaces | `#2a2a37` | `editorSuggestWidget.background` |
-| Controls | `#223249` | `editor.selectionBackground` |
-| Borders | `#2a2a37` | `editorHoverWidget.border` |
+| Workspace and raised surfaces | `#16161e` | `editor.background`, `sideBar.background` |
+| Controls | `#16161e` | `input.background`, `dropdown.background` |
+| Borders | `#ffffff12` | Subtle borders from `workbench.colorCustomizations` |
 | Accent | `#658594` | `tab.activeBorderTop` |
-| Muted text | `#727169` | `editorInlayHint.foreground` |
+| Muted UI text | `#dcd7ba` | `descriptionForeground`, `sideBar.foreground` |
 | Focus ring | `#54546d` | `editorLineNumber.foreground` |
 
-Paseo derives interface, terminal, diff and status colors from the semantic palette. Code highlighting has a separate Appearance setting. This is a palette adaptation; it does not reproduce all VS Code token colors or user overrides. It does not patch the app or contribute server code.
+Paseo uses the raised color for its workspace and the control color for ordinary inputs as well as selected sidebar rows. These stay dark to match VS Code's main surfaces; selection and hover states cannot be mapped independently through the eight-color API.
+
+This plugin controls app surfaces, primary and muted UI text, accents, and terminal background/foreground. Code highlighting has a separate Appearance setting; Paseo 0.12 offers no native plugin contribution for Kanagawa syntax colors. Terminal ANSI colors, diff/status colors and terminal selection colors remain Paseo's defaults. The focus-ring color also controls extra-muted text and terminal bright black, so it stays opaque rather than copying VS Code's transparent focus border. This is an interface-palette adaptation, not a complete VS Code color-theme port. It does not patch the app or contribute server code.
 
 ## Matching VS Code typography
 

@@ -10,11 +10,14 @@ export default function contribute(client: PluginClientContext) {
     colors: {
       background: "#16161e",
       foreground: "#dcd7ba",
-      raised: "#2a2a37",
-      control: "#223249",
-      border: "#2a2a37",
+      // Paseo also uses raised for the workspace, and control for ordinary inputs.
+      // VS Code's suggestion/selection colors would brighten these whole surfaces.
+      raised: "#16161e",
+      control: "#16161e",
+      border: "#ffffff12",
       accent: "#658594",
-      mutedForeground: "#727169",
+      mutedForeground: "#dcd7ba",
+      // This also colors extra-muted text and terminal bright black; keep it opaque.
       ring: "#54546d",
     },
   });
