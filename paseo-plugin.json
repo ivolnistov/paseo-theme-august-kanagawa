@@ -3,5 +3,5 @@
   "name": "August Kanagawa Theme",
   "description": "August - Kanagawa (Darker), adapted from the August Themes palette for VS Code.",
   "media": ["assets/screenshot.png"],
-  "requirements": { "paseo": ">=0.12.0 <0.13.0" }
+  "requirements": { "paseo": ">=0.12.0 <0.14.0" }
 }
